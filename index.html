@@ -17,7 +17,6 @@
     .card {
       width: 1000px;
       height: 700px;
-      background-color: black;
     }
 
     .card>img {
@@ -31,15 +30,29 @@
         padding: 10px 10px;
       }
     }
-    body{
-      background-color: black;
-      color: gold;
+
+
+
+    .card {
+      filter: brightness(50%);
+      transform: scale(1);
     }
-    p{
-      color: gold;
+
+    .card:hover {
+      transform: scale(1.02);
+      filter: brightness(100%);
+      transition: 0.8s;
     }
-    
-    
+    .display-4{
+      filter: brightness(50%);
+      transform: scale(1);
+    }
+    .display-4:hover{
+      transform: scale(1.02);
+      filter: brightness(100%);
+      transition: 0.8s;
+    }
+
   </style>
 </head>
 
@@ -115,7 +128,7 @@
 
     <div class="container " style="margin-top: 80px;">
       <div class="table-responsive" style="width: 97%; margin: auto;" id="Dinara">
-        <div class="display-4 fw-bold mb-4 text-center">NERV QRUPUNUN CEDVELI</div>
+        <div class="display-4 fw-bold mb-4 text-center" style="box-shadow: 1px 2px 5px black;">NERV QRUPUNUN CEDVELI</div>
         <table class="table table-dark table-striped table-bordered table-hover ">
           <tr class="table-info ">
             <th>Ad</th>
@@ -230,8 +243,8 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-              aria-expanded="false" aria-controls="collapseFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Khayal
             </button>
           </h2>
@@ -249,11 +262,11 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive"
-              aria-expanded="false" aria-controls="collapsefive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
               Dinara
             </button>
-          </h2> 
+          </h2>
           <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src="di.jpg" alt="" style="width: 200px;height: 200px;">
@@ -268,8 +281,8 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
-              aria-expanded="false" aria-controls="collapsesix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
               Leman
             </button>
           </h2>
@@ -287,8 +300,8 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven"
-              aria-expanded="false" aria-controls="collapseseven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
               Elmir
             </button>
           </h2>
@@ -302,12 +315,12 @@
               CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
               <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
-            
+
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight"
-                aria-expanded="false" aria-controls="collapseeight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
                 Toghrul
               </button>
             </h2>
@@ -368,7 +381,7 @@
 
           <div class="row row-cols-1 row-cols-md-3 g-4 ">
             <div class="col d-flex justify-content-evenly flex-wrap d-flex justify-content-evenly flex-wrap">
-              <div class="card  h-70 " style="box-shadow: 1px 2px 5px gold;">
+              <div class="card  h-70 " style="box-shadow: 1px 2px 5px black;">
                 <img src="e.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Elmir(Lq)</h5>
@@ -382,7 +395,7 @@
               </div>
             </div>
             <div class="col d-flex justify-content-evenly flex-wrap ">
-              <div class="card h-70" style="box-shadow: 1px 2px 5px gold;">
+              <div class="card h-70" style="box-shadow: 1px 2px 5px black;">
                 <img src="zi.jpg" class="card-img-top  " alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Zakir(Ziko)</h5>
@@ -395,7 +408,7 @@
               </div>
             </div>
             <div class="col d-flex justify-content-evenly flex-wrap">
-              <div class="card h-70" style="box-shadow: 1px 2px 5px gold;">
+              <div class="card h-70" style="box-shadow: 1px 2px 5px black;">
                 <img src="x.jpg" class="card-img-top d-flex justify-content-evenly flex-wrap" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Xeyal(Master)</h5>
@@ -408,7 +421,7 @@
               </div>
             </div>
             <div class="col d-flex justify-content-evenly flex-wrap">
-              <div class="card h-70" style="box-shadow: 1px 2px 5px gold;">
+              <div class="card h-70" style="box-shadow: 1px 2px 5px black;">
                 <img src="t.jpg" class="card-img-top d-flex justify-content-evenly flex-wrap" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Toghrul(Tughrul)</h5>
@@ -421,7 +434,7 @@
               </div>
             </div>
             <div class="col d-flex justify-content-evenly flex-wrap">
-              <div class="card h-70 " style="box-shadow: 1px 2px 5px gold;">
+              <div class="card h-70 " style="box-shadow: 1px 2px 5px black;">
                 <img src="Kevin.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Kamal(Kevin,Kolya,Andrey,Jack,Roza)</h5>
@@ -435,7 +448,7 @@
               </div>
             </div>
             <div class="col d-flex justify-content-evenly flex-wrap">
-              <div class="card h-70" style="box-shadow: 1px 2px 5px gold;">
+              <div class="card h-70" style="box-shadow: 1px 2px 5px black;">
                 <img src="di.jpg" class="card-img-top " alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Dinara and Leman(Dost and her kesin korkulu ruyasi)</h5>
@@ -451,13 +464,13 @@
             </div>
           </div>
         </div>
-          <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-bottom">
-            <p class="text-white mx-auto my-auto">
-              Design by Ziko &copy; 2023
-            </p>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-              integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-              crossorigin="anonymous"></script>
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-bottom">
+          <p class="text-white mx-auto my-auto">
+            Design by Ziko &copy; 2023
+          </p>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
   </body>
 
 </html>
